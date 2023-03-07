@@ -1,0 +1,35 @@
+## arg 1:  the new package version
+#pre_install() {
+	# do something here
+#}
+
+## arg 1:  the new package version
+post_install() {
+users=$(ls /home)
+for i in $users; do 
+	mkdir -p /home/$users/.config/plasmaConfSaver
+	cp -r /usr/share/plasma/plasmoids/com.pajuelo.plasmaConfSaver/examples/* /home/$users/.config/plasmaConfSaver/
+	chown $users:$users -R /home/$users/.config/plasmaConfSaver/
+done
+}
+
+## arg 2:  the old package version
+#pre_upgrade() {
+	# do something here
+#}
+
+## arg 2:  the old package version
+post_upgrade() {
+		post_install
+}
+
+## arg 1:  the old package version
+#pre_remove() {
+	# do something here
+#}
+
+## arg 1:  the old package version
+#post_remove() {
+	# do something here
+#}
+ 
