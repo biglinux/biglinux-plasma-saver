@@ -7,9 +7,9 @@
 post_install() {
 users=$(ls /home)
 for i in $users; do 
-	mkdir -p /home/$users/.config/plasmaConfSaver
-	cp -r /usr/share/plasma/plasmoids/com.pajuelo.plasmaConfSaver/examples/* /home/$users/.config/plasmaConfSaver/
-	chown $users:$users -R /home/$users/.config/plasmaConfSaver/
+	mkdir -p /home/$users/.config/biglinuxPlasmaSaver
+	cp -r /usr/share/plasma/plasmoids/org.biglinux.plasma.saver/examples/* /home/$users/.config/biglinuxPlasmaSaver/
+	chown $users:$users -R /home/$users/.config/biglinuxPlasmaSaver/
 done
 }
 

@@ -34,6 +34,6 @@ package() {
     fi
 }
 
-post_install() {
-  sh /usr/share/plasma/plasmoids/org.biglinux.plasma.saver/translate/build.sh --restartplasma
-}
+# post_install() {
+#   sh /usr/share/plasma/plasmoids/org.biglinux.plasma.saver/translate/build.sh --restartplasma
+# }
