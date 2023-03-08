@@ -1,68 +1,70 @@
-# Translation of plasmaConfSaver in es
+# Translation of biglinux-plasma-saver in es
 # Copyright (C) 2019
-# This file is distributed under the same license as the plasmaConfSaver package.
+# This file is distributed under the same license as the biglinux-plasma-saver package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: plasmaConfSaver \n"
+"Project-Id-Version: biglinux-plasma-saver \n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-20 19:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: es\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../contents/ui/FullRepresentation.qml:89
-msgid "Enter customization title"
-msgstr "Introduzca el título de la personalización"
+msgid "Introduza o titulo da customização"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:105
-msgid "Save"
-msgstr "Guardar"
+msgid "Salvar"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:106
-msgid "Save your current customization"
-msgstr "Guardar tu personalización de escritorio actual"
+msgid "Salvar customização atual"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:192
-msgid "Import"
-msgstr "Importar"
+msgid "Importar"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:193
-msgid "Import a customization"
-msgstr "Importar personalización"
+msgid "Importar customização"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:291
-msgid "Load"
-msgstr "Cargar"
+msgid "Carregar"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:292
-msgid "Load this customization"
-msgstr "Carga esta personalización"
+msgid "Carregar esta customização"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:324
 msgid "Update"
-msgstr "Actualizar"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:325
-msgid "Save this customization again"
-msgstr "Guardar esta personalización de nuevo"
+msgid "Salvar esta customização de novo"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:358
-msgid "Export"
-msgstr "Exportar"
+msgid "Exportar"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:359
-msgid "Export this customization"
-msgstr "Exportar personalización"
+msgid "Exportar customização"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:382
-msgid "Delete"
-msgstr "Borrar"
+msgid "Apagar"
+msgstr ""
 
 #: ../contents/ui/FullRepresentation.qml:383
-msgid "Delete this customization"
-msgstr "Borra esta personalización"
+msgid "Apagar esta customização"
+msgstr ""
